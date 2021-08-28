@@ -13,6 +13,8 @@ Install this plugin in the same environment as Datasette.
 
     $ datasette install datasette-verify
 
+This plugin depends on [Datasette 0.59a2](https://github.com/simonw/datasette/releases/tag/0.59a2) or higher, as it uses the [register_commands()](https://docs.datasette.io/en/latest/plugin_hooks.html#plugin-hook-register-commands) plugin hook.
+
 ## Usage
 
 To confirm that files can be opened by Datasette, run the following:
